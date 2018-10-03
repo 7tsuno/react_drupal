@@ -1,0 +1,23 @@
+{
+  "name": "react_drupal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^3.1.2",
+    "node-sass": "^4.9.2",
+    "parcel-bundler": "^1.9.4",
+    "react-hot-loader": "^4.3.3"
+  }
+}
