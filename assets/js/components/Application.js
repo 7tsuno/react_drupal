@@ -14,6 +14,7 @@ class Application extends React.Component {
 
   getUser(){
 
+    // ここを自分のDrupalのRESTのURLに直して実行してみましょう。
     fetch('http://dev-meetup14.pantheonsite.io/rest/users?_format=json')
     .then(res => res.json())
     .then(json => {
