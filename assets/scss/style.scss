@@ -12,10 +12,13 @@ body{
   background-color: #FFF;
 }
 input{
+  height: 3em;
+  width: 10em;
   font-size: 2em;
-  background-color: #333;
+  background-color: #222;
   color: #FFF;
   border: none;
+  box-shadow: 4px 4px;
 }
 table{
   margin-top: 1em;
@@ -23,5 +26,6 @@ table{
   border-collapse: collapse;
 }
 th,td {
+  width: 10em;
   border: solid 1px;
 }
