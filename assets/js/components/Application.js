@@ -27,18 +27,19 @@ class Application extends React.Component {
   render() {
     return (
       <div>
-        <p>Hello React + Drupal !</p>
-        <input type='button' onClick={() => this.getUser()} value='get User'/>
-        <table border="1">
-        <thead>
-          <tr><th>名前</th><th>会社</th></tr>
-        </thead>
-        <tbody>
-          {this.state.users.map((user, key) =>
-            <tr key={key}><td>{user.field_name}</td><td>{user.field_company_name}</td></tr>
-          )}
-        </tbody>
-        </table>
+        <input type='button' onClick={() => this.getUser()} value='GET USER'/>
+        {this.state.users.length > 0 &&
+          <table>
+          <thead>
+            <tr><th>名前</th><th>会社</th></tr>
+          </thead>
+          <tbody>
+            {this.state.users.map((user, key) =>
+              <tr key={key}><td>{user.field_name}</td><td>{user.field_company_name}</td></tr>
+            )}
+          </tbody>
+          </table>
+        }
       </div>
     );
   }

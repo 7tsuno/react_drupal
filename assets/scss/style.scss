@@ -1,3 +1,27 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 body{
   background-color: #FFF;
+}
+input{
+  font-size: 2em;
+  background-color: #333;
+  color: #FFF;
+  border: none;
+}
+table{
+  margin-top: 1em;
+  font-size: 2em;
+  border-collapse: collapse;
+}
+th,td {
+  border: solid 1px;
 }
